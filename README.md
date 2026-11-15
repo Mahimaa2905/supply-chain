@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Supply Chain 360 is an end-to-end supply chain analytics application built using Azure Blob Storage and Databricks.
+Supply Chain is an end-to-end supply chain analytics application built using Azure Blob Storage and Databricks.
 
 The project ingests supply chain data, processes it through the Medallion Architecture (Bronze, Silver, Gold), performs data quality validations, quarantines invalid records, and generates business-ready analytics.
 
@@ -84,7 +84,7 @@ The Supply Chain 360 application is designed to provide:
 ## Repository Structure
 
 ```text
-supply-chain-360/
+supply-chain/
 │
 ├── app.py
 ├── requirements.txt
