@@ -1,0 +1,12 @@
+command:
+  - streamlit
+  - run
+  - app.py
+
+env:
+  - name: STREAMLIT_GATHER_USAGE_STATS
+    value: "false"
+  - name: DATABRICKS_WAREHOUSE_ID
+    valueFrom: sql-warehouse
+  - name: SUPPLY_CHAIN_JOB_ID
+    valueFrom: job
